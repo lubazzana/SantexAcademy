@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+div#header {
+    border-bottom: 1px solid gray;
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+div#header-right {
+    display: flex;
+    align-items: center;
+}
+
+#header-right p {
+    margin-right: 40px;
+}
+
+div#header-right p:hover {
+    color: #6b53f0;
+    cursor: pointer;
+}
+
+button.redondo {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 32px;
+}
+
+div#introduction {
+    padding: 80px;
+    background-color: white;
+}
+
+#introduction-text h1 {
+    margin: 0px 400px;
+    text-align: center;
+}
+
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+button.sumate {
+    margin-left: 14px;
+    border-color: #6b53f0;
+    color: #6b53f0;
+}
+
+button.sumate:hover {
+    background-color: #6b53f0;
+    color: white;
+    cursor: pointer;
+}
+
+.btnblack:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#impacto {
+    background-color: #201b24;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 30px;
+}
+
+#impacto-titulo {
+    width: 30%;
+    margin-left: 300px;
+}
+
+#impacto-datos {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 300px;
+}
+
+.dato {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.dato span {
+    font-size: 30px;
+    font-weight: 400;
+    color: #6b53f0;
+}
+
+.bajada {
+    font-size: 14px;
+    color: #8c939c;
+    margin-top: 0;
+}
+
+#foto {
+    background-image: url('./img/foto-home.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
