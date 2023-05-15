@@ -8,6 +8,9 @@ body {
     margin: 0;
 }
 
+
+/* Sección Header */
+
 div#header {
     border-bottom: 1px solid gray;
     display: flex;
@@ -21,7 +24,7 @@ div#header-right {
     align-items: center;
 }
 
-#header-right p {
+div#header-right p {
     margin-right: 40px;
 }
 
@@ -38,12 +41,15 @@ button.redondo {
     height: 32px;
 }
 
+
+/* Sección Introducción */
+
 div#introduction {
     padding: 80px;
     background-color: white;
 }
 
-#introduction-text h1 {
+div#introduction-text h1 {
     margin: 0px 400px;
     text-align: center;
 }
@@ -66,11 +72,14 @@ button.sumate:hover {
     cursor: pointer;
 }
 
-.btnblack:hover {
+button.btnblack:hover {
     background-color: black;
     color: white;
     cursor: pointer;
 }
+
+
+/* Sección Impacto */
 
 #impacto {
     background-color: #201b24;
@@ -114,6 +123,9 @@ button.sumate:hover {
     color: #8c939c;
     margin-top: 0;
 }
+
+
+/* Sección Foto */
 
 #foto {
     background-image: url('./img/foto-home.jpg');
