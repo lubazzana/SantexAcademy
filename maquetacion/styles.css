@@ -72,7 +72,7 @@ button.sumate:hover {
     cursor: pointer;
 }
 
-button.btnblack:hover {
+button.redondo:hover {
     background-color: black;
     color: white;
     cursor: pointer;
@@ -135,3 +135,141 @@ button.btnblack:hover {
     background-attachment: fixed;
     height: 100vh;
 }
+
+
+/* Sección Actividades */
+
+#actividad {
+    padding: 70px 300px;
+}
+
+.estructura {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.estructura p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.estructura h1 {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.actividad-left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.act-img-left {
+    width: 50%;
+}
+
+.act-img-left img {
+    border-radius: 0px 40px 40px 40px;
+}
+
+.act-info-left {
+    width: 50%;
+}
+
+.act-info-left img {
+    height: 50px;
+}
+
+.actividad-right {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.act-img-right {
+    display: flex;
+    justify-content: right;
+    width: 50%;
+}
+
+.act-img-right img {
+    border-radius: 40px 40px 0px 40px;
+}
+
+.act-info-right {
+    width: 50%;
+}
+
+
+/* Sección Equipo */
+#equipo {
+    background-color: #f4f4f5;
+    padding: 70px 300px;
+}
+
+#equipo h1 {
+    text-align: left;
+}
+
+#cards-galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#card-equipo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    border-radius: 20px 20px 20px 0px;
+    margin: 20px 0;
+}
+
+#card-equipo img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#card-info h3 {
+    margin-bottom: 0;
+}
+
+#card-info p {
+    margin-top: 0;
+    color: #8c939c;
+}
+
+#card-info button {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid #201b24;
+    border-radius: 50%;
+}
+
+#card-info button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/*filter: grayscale(100%);
+    opacity: 0.5;*/
