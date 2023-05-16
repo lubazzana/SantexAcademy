@@ -274,7 +274,8 @@ button.redondo:hover {
 
 /* Sección Alianzas */
 #alianzas {
-    padding: 30px 300px;
+    padding: 50px 300px;
+    margin-bottom: 20px;
 }
 
 #alianzas h1 {
@@ -310,4 +311,34 @@ button.redondo:hover {
 
 #boton-scroll-container {
     visibility: inherit;
+}
+
+
+/* Sección Footer */
+#footer {
+    padding: 50px 300px;
+    background-color: #201b24;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+#footer-texto {
+    font-size: 13px;
+    width: 30%;
+    text-align: justify;
+}
+
+.footer-boton {
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+.footer-boton:hover {
+    opacity: 1;
+    cursor: pointer;
 }
