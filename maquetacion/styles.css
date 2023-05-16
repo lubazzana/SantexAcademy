@@ -271,5 +271,43 @@ button.redondo:hover {
     cursor: pointer;
 }
 
-/*filter: grayscale(100%);
-    opacity: 0.5;*/
+
+/* Sección Alianzas */
+#alianzas {
+    padding: 30px 300px;
+}
+
+#alianzas h1 {
+    text-align: left;
+}
+
+#slider-alianzas {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+#slider-alianzas::-webkit-scrollbar {
+    display: none;
+}
+
+#slider-alianzas img {
+    filter: grayscale(100%);
+    opacity: 0.5;
+    flex: 0 0 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    height: 100%;
+}
+
+#slider-alianzas img:hover {
+    filter: none;
+    opacity: 1;
+}
+
+#boton-scroll-container {
+    visibility: inherit;
+}
